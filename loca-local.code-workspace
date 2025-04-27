@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "✨ Root",
+      "path": "."
+    },
+    {
+      "path": "packages/shared",
+      "name": "🤝 Shared"
+    },
+    {
+      "path": "apps/web",
+      "name": "🖥️ Front"
+    },
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.enable": true,
+    "eslint.validate": ["typescript", "javascript", "tsx"],
+    "prettier.requireConfig": true,
+    "git.enabled": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@loca-local/shared": ["packages/shared/src"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["@types/google.maps"],
+    "paths": {
+      "@loca-local/shared": ["../../packages/shared/src"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*"]
+}
